@@ -133,7 +133,10 @@ html{
 
 body{
 	/* font-family: 'Lato', sans-serif; */
-	font-family: 'Oswald', sans-serif;
+
+
+    font-family: 'Montserrat', sans-serif;
+
   position: relative;
 	font-size: 16px;
 	height: 100vh; 
@@ -260,9 +263,9 @@ body{
 }
 
 .content__title{
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 45px;
 }
 
@@ -272,10 +275,10 @@ body{
 
 .content__paragraph{
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 20px;
   position: relative;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.5;
   text-align: right;
 }
@@ -313,7 +316,7 @@ body{
   }
 
   .content__title{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 33px;
   }
 
@@ -338,9 +341,7 @@ body{
 }
 
 @media screen and (max-width: 540px){
-  .content__title{
-    letter-spacing: 2px;
-  }  
+
 
   .content__desc{
     min-width: 50%;
@@ -362,7 +363,7 @@ body{
 
   .content__title br{
     display: block;
-    margin: 4px 0;
+    margin: 2px 0;
   }
 
   .content__headline{
