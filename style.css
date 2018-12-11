@@ -138,7 +138,7 @@ body{
 	font-size: 16px;
 	height: 100vh; 
   overflow: hidden;
-  background: #fff url(img/parallax.jpg) center 5%/cover no-repeat;
+  background: #fff url(img/parallax.jpg) 25% center/cover no-repeat;
 }
 
 /*body::before {
@@ -243,8 +243,8 @@ body{
 .content__media{
   height: 100%;
   width: 100%;
-  text-align: right;
-  padding-right: 30px;
+  text-align: left;
+  padding-left: 30px;
 }
 
 .content__headline::before {
