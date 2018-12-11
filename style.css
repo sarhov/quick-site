@@ -199,23 +199,6 @@ body{
   background: #6972ff;
 }
 
-.fixbtn{
-  position: fixed;
-  left: 0;
-  display: none;
-  bottom:0;
-  width: 100%;
-  z-index: 10;
-  display: none;
-}
-
-.fixbtn .btn{
-  display: block;
-  width: 100%;
-  border: none;
-  text-align: center;
-  font-size: 18px !important;
-}
 
 .social{
   white-space: nowrap;
@@ -323,10 +306,6 @@ body{
 
   .content{
     padding-bottom: 70px;
-  }
-
-  .fixbtn{
-    display: block;
   }
 
   .content__desc{
