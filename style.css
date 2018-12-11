@@ -299,7 +299,8 @@ body{
 @media screen and (max-width: 768px){
 
   body{
-    background-position: 25% 60px;
+    background-position: 15% 60px;
+    background-size: 720px;
   }
 
   .header{
