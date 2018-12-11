@@ -228,20 +228,7 @@ body{
   height: calc(100% - 100px);
 }
 
-.content__desc{
-  min-width: 60%;
-}
-
-.content__headline{
-  padding: 20px;
-  margin-bottom: 40px;
-  position: relative;
-  display: inline-block;
-  padding-left: 30px;
-}
-
 .content__media{
-  /*height: 100%;*/
   width: 100%;
   text-align: left;
   padding-left: 30px;
@@ -251,51 +238,7 @@ body{
   max-width: 270px;
 }
 
-.content__headline::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 1000px;
-  height: 100%;
-  background: #ececec;
-  top: 0;
-  z-index: -1;
-  opacity: 0.66;
-}
 
-.content__title{
-  letter-spacing: 4px;
-  margin: 0;
-  font-weight: 500;
-  font-size: 45px;
-}
-
-.content__title br{
-  display: none;
-}
-
-.content__paragraph{
-  font-size: 28px;
-  font-weight: 300;
-  padding: 20px;
-  position: relative;
-  letter-spacing: 2px;
-  line-height: 1.5;
-  text-align: right;
-}
-
-.content__paragraph::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 2000px;
-  height: 100%;
-  background: linear-gradient(to left, #ffffff80 5%, #fff9 15%, #b7b2b2e6 100%);
-  top: 0;
-  z-index: -1;
-  opacity: 0.77;
-  filter: blur(2px);
-}
 @media screen and (max-width: 768px){
 
   body{
@@ -308,11 +251,6 @@ body{
     padding-right: 10px;
   }
 
-  .content__media img{
-    max-width: 170px;
-  }
-
-
   .btn{
       font-size: 12px;
       letter-spacing: 1px;
@@ -321,69 +259,6 @@ body{
 
   .content{
     padding-bottom: 70px;
-  }
-
-  .content__desc{
-    min-width: 40%;
-  }
-
-  .content__title{
-    letter-spacing: 2px;
-    font-size: 33px;
-  }
-
-  .content__paragraph{
-    font-size: 22px;
-    padding: 10px;
-    letter-spacing: 1px;
-  }
-
-
-  .content__headline{
-    padding: 10px;
-    padding-left: 20px;
-  }
-
-}
-
-@media screen and (max-width: 540px){
-  .content__title{
-    letter-spacing: 2px;
-  }  
-
-  .content__desc{
-    min-width: 50%;
-  }
-
-  .content__title .text_1{
-    letter-spacing: 2px;
-    font-size:28px;
-  }
-  .content__title .text_2{
-    letter-spacing: 2px;
-    font-size:30px;
-  }
-
-  .content__title .text_3{
-    letter-spacing: 2px;
-    font-size:32px;
-  }
-
-  .content__title br{
-    display: block;
-    margin: 4px 0;
-  }
-
-  .content__headline{
-    padding: 10px;
-    padding-left: 20px;
-  }
-
-  .content__paragraph{
-    font-size: 16px;
-    padding: 10px;
-    letter-spacing: 1px;
-    font-weight: 400;
   }
 
 }
