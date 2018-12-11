@@ -181,13 +181,13 @@ body{
 
 .btn{
   transition: all 0.3s;
-  color: #f4f4f4;
-  background: #a9aeff;
+  color: #000;
+  background: #eaeaea;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 4px;
-  border: solid 0 #e3edf4;
-  border-bottom: 2px solid #6972ff;
+  border: solid 0 #eaeaea;
+  border-bottom: 2px solid #f5a623;
   border-radius: 4px;
   font-size: 14px;
   letter-spacing: 1.2px;
@@ -196,7 +196,7 @@ body{
 }
 
 .btn:hover{
-  background: #6972ff;
+  background: #f5a623;
 }
 
 
@@ -207,7 +207,7 @@ body{
 .social__link{
   display: inline-block;
   margin: 0 5px;
-  color: #a9aeff;
+  color: #f5a623;
   transition: all 0.2s;
   font-size: 18px;
 }
