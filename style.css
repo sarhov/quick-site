@@ -380,8 +380,8 @@ body{
 
   .content__media {
     padding-right: 0;
-    min-width: 220px;
-    margin-right: -10%;
+    min-width: 190px;
+    margin-right: -20%;
     height: 100%;
   }
 }
