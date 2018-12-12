@@ -257,9 +257,10 @@ body{
       padding: 10px 15px 10px 15px;
   }
 
-  .content{
-    padding-bottom: 70px;
+  .content__media img{
+    max-width: 170px;
   }
+
 
 }
 
